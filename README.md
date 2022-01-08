@@ -34,7 +34,7 @@ async fn style(assets: &Assets) -> Option<Asset> {
 This is configurable the same way as Rocket.
 
 Either through `Rocket.toml`:
-```
+```toml
 [default]
 assets_dir = "assets"
 assets_max_age = 86400
